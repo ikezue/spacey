@@ -1,0 +1,18 @@
+@import "settings"
+@import "foundation"
+
+@import "compass/css3"
+
+.container
+  padding: 10em
+  .content
+    @include grid-row()
+    .welcome
+      @include grid-column($columns:9)
+      .welcome-message
+        @include panel($bg:$panel-bg)
+        +border-radius
+    .launch
+      @include grid-column($columns:3)
+      .launch-button
+        @include button($radius:3px, $bg:$success-color)
