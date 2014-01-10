@@ -9,4 +9,7 @@ pom.xml.asc
 /.nrepl-port
 /.sass-cache
 /out
-resources/public/components
+resources/public/components/*
+resources/public/css
+resources/public/js/*
+!resources/public/js/vendor
