@@ -19,11 +19,13 @@
     <script type="text/javascript">
       replgoog.require('repl');
     </script>
+    <script src="js/debug.js" type="text/javascript"></script>
+    <script type='text/javascript' id='lt_ws' src='http://localhost:64938/socket.io/lighttable/ws.js'></script>
   </head>
 
   <body>
     <div class="container">
-      <section class="content">
+      <section class="static content">
         <div class="welcome">
           <div class="welcome-message">
             <h3>Welcome to spacey</h3>
@@ -33,14 +35,14 @@
         <div class="launch">
           <a href="#" class="launch-button" id="start">Start here</a><br/>
         </div>
+
+
+
       </section>
     </div>
 
     <!--         <script src="components/jquery/jquery.js"></script> -->
     <script src="components/foundation/js/foundation.min.js"></script>
     <script src="js/vendor/foundation.js"></script>
-
-    <script src="js/debug.js" type="text/javascript"></script>
-    <script>spacey.core.main();</script>
   </body>
 </html>

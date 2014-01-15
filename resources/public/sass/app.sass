@@ -16,3 +16,9 @@
       @include grid-column($columns:3)
       .launch-button
         @include button($radius:3px, $bg:$success-color)
+  .problem-box
+    @include grid-row()
+    .problem
+      @include grid-column($columns: 12)
+      border: 2px dashed darkslateblue
+      @include border-radius(10px)
