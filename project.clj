@@ -48,5 +48,5 @@
           :output-to "resources/public/js/app.js"
           :output-dir "out"
           ;; http://www.dotnetwise.com/Code/Externs/
-          :externs ["resources/externs.js"]
+          :externs ["resources/externs/codemirror.js"]
           :optimizations :advanced}}}})
