@@ -14,3 +14,5 @@ resources/public/css
 resources/public/js/*
 !resources/public/js/vendor
 /clojurescript
+bower.json
+.bowerrc
